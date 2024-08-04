@@ -1,5 +1,4 @@
 import { url } from "inspector"
-import Header from "./components/header"
 
 
 export default function Home() {

@@ -19,19 +19,19 @@ export default function RootLayout({
   return (
     <html >
       <body>
-        <header className="container flex justify-between mb-8">
+        {/* <header className="container flex justify-between mb-8">
           
           <nav className="flex gap-5">
             <Link href="/">
-              {/* Home */}
+               Home 
             </Link><br/>
             <Link href="/pages/newswire">
-              {/* noticias */}
+               noticias 
             </Link>
           </nav>
-          {/* header ta aqui pq se repete pra toda pagina as coisas que ta aqui em layout */}
+           header ta aqui pq se repete pra toda pagina as coisas que ta aqui em layout 
           <Header></Header>
-        </header>
+        </header> */}
         <main className={inter.className}>{children}</main>
       </body>
 
