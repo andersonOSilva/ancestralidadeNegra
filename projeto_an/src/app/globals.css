@@ -170,120 +170,79 @@
   }
 }
 .gallery{
-  height:850px;
-  background-color:lightgreen;
+  height:1500px;
+  background-color:#91360f;
   display:flex;
-  flex-direction:column;
+
+  flex-direction: column;
   align-items:center;
+
   .title{
     width:60%;
-    height:20px;
+    height:100px;
     background-color:rgba(1,1,1,0.3);
     text-align:center;
+    color: #ff601b;
+
+
+    .underline{
+      border: solid 1px;
+      width: 650px;
+      height: 5px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #ff601b;
+    }
+
+    .underlineTitleLeft{
+      border: solid 1px;
+      background-color: #ff601b;
+      width: 10px;
+      height: 10px;
+      transform: rotate(45deg);
+      float: left;
+      margin-left:  -10px;
+      margin-top: -4px;
+    }
+
+    .underlineTitleRight{
+      border: solid 1px;
+      background-color: #ff601b;
+      width: 10px;
+      height: 10px;
+      transform: rotate(45deg);
+      float: right;
+      margin-right:  -10px;
+      margin-top: -4px;
+    }
   }
   .pictures{
-    background-color:lightgrey;
+    border: solid 0px;
     display:flex;
     flex-direction:column;
     align-items:center;
-    height:770px;
-    
+    height:1400px;
     width:100%;
-    div{
-      width:80%;
-      height:180px;
-      background-color:red;
-      margin-top: 5px;
-      margin-bottom: 5px;
-    }
-  }
-}
-.range{
-  width:100%;
-  height:1600px;
-  background-color:black;
-  display: flex;
-  flex-flow:column;
-  align-items: center;
-  .ourRange{
-    background-color:#F49B05;
-    width:800px;
-    height:593px;    
-    float:left;
-    bottom: 30px;
-    position: relative;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    .containOurRangeArrow{
-      display:flex;
-      justify-content:center;
-      
-      width:100%;
-      .ourRangeArrow{
-        width:70px;
-        height:70px;
-        background-color:#F49B05;
-        transform:rotate(45deg);
-        position:relative;  
-        bottom:14px
-      }
-    }
-    .ourRangeTextImg{
-      width:95%;
-      height:90%;
-      background-color:aqua;
-      display:flex;
-      float:left;
-      bottom: 30px;
-      position:relative;
-      .ourRangeText{
-          background-color:darkred;
-          height:100%;
-          width:70%; 
-      }
-      .ourRangeImg{
-          background-color:brown;
-          height:100%;
-          width:30%; 
-      }
-    }
-  }
-  .rangeStraps{
-    display:flex;
-    align-items:center;
-    flex-flow:column;
-    div{
-      background-color:#F49B05;
-      width:800px;
-      height:50px;
-      margin-bottom:30px;
-    }
-    div:nth-child(2){
-      width:750px;
-    }
-    div:nth-child(3){
-      width:700px;
-    }
-  }
-  .formForSchool{
-    background-color:lightgreen;
-    width:100%;
-    height:800px;
-    display:flex;
-    .words{
-      width:50%;
-      height:100%;
-      background-color:yellow;
-    }
-    .form{
-      background-color:orange;
-      width:50%;
-      height:100%;
-    }
-  }
-}
 
+    div{
+      border: solid 0px;
+      width:50%;
+      height:300px;
+      margin-top: 30px;
+      margin-bottom: 5px;
+      border-radius: 30px;
+    }
+
+    .galleryImg1{background-image: url('assets/components/gallery/1.png'); background-size: cover;}
+
+    .galleryImg2{background-image: url('assets/components/gallery/2.png'); background-size: cover;}
+
+    .galleryImg3{background-image: url('assets/components/gallery/3.png'); background-size: cover;}
+
+    .galleryImg4{background-image: url('assets/components/gallery/3.png'); background-size: cover;}
+
+  }
+}
 /* :root {
   --max-width: 1100px;
   --border-radius: 12px;
