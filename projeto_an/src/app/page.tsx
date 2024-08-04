@@ -40,12 +40,21 @@ export default function Home() {
         </div>
       </div>
       <div className="gallery">
-        <div className="title">batata de pao</div>
+        <div className="title">
+         <h1>EVENTOS DA ULTIMA SEMANA</h1>
+          <div className="underline">
+            <div className="underlineTitleLeft"></div>
+            <div className="underlineTitleRight"></div>
+          </div>
+        </div>
         <div className="pictures">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div className="galleryImg1"></div>
+
+          <div className="galleryImg2"></div>
+
+          <div className="galleryImg3"></div>
+
+          <div className="galleryImg4"></div>
         </div>
       </div>
       <div>
