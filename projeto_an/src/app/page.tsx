@@ -48,11 +48,26 @@ export default function Home() {
           <div></div>
         </div>
       </div>
-      <div>
-          range
-      </div>
-      <div>
-          formulario de escolas
+      <div className="range">
+          <div className="ourRange">
+            <div className="containOurRangeArrow">
+              <div className="ourRangeArrow"></div>
+            </div>
+            <div className="ourRangeTextImg">
+              <div className="ourRangeText"></div>
+              <div className="ourRangeImg"></div>
+            </div>
+          </div>
+          
+          <div className="rangeStraps">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        <div className="formForSchool">
+            <div className="words"></div>
+            <div className="form"></div>
+        </div>
       </div>
     </>
      
