@@ -1,21 +1,75 @@
 .header{
   display: flex;
 
+    background-image: url("assets/components/header/fundo.svg");
+
   div{
-    height:100px;
+    height: 600px;
   }
   .menu,.register{
-    width:30%;
+    width:20%;
+    border: solid 0px;
   }
   .menu{
-    background-color:aqua;
   }
   .middle{
-    width:40%;
-    background-color:red;
+    width:60%;
+    background-image: url("assets/components/header/meninas_soltas.png");
+    background-size: 100% 100%;
+    background-attachment: inherit;
   }
   .register{
-    background-color:#f0f;
+  }
+
+  .LogoProject{
+    border: solid 0px;
+    width: 100%;
+    height: 150px;
+    margin-top: 55px;
+  }
+
+  .NameProject{
+    border: solid 0px;
+    height: 100%;
+    width: 400px;
+    float: left;
+    text-align: center;
+  }
+  .NameProject h1{
+    font-size: 40px;
+    color: #fd8300;
+  }
+
+   .Ancestralidade{
+    border: solid 0px;
+    width: 350px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 25px;
+    margin-top: -15px;
+    background-color: #8d2500;
+    color: #fd8300;
+  } 
+
+
+  .Logotipo{
+    border: solid 0px;
+    width: 200px;
+    height: 100%;
+    float: left;
+    margin-left: 150px;
+    background-image: url("assets/components/header/logo.PNG");
+    background-size: 100% 100%;
+  }
+
+  .Merchan{
+    border: solid 0px;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 50px;
   }
 }
 
@@ -35,7 +89,7 @@
       height:100%;
     }
     .arrow{
-      width: 4%;
+      width: 30px;
       background-color: gray;
       transform: rotate(45deg);
       margin-top: 6px;

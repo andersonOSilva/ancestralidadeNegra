@@ -6,7 +6,22 @@ export default function Home() {
     <>
       <div className="header">
           <div className="menu"></div>
-          <div className="middle"></div>
+          <div className="middle">
+            <div className="LogoProject">
+              <div className="NameProject">
+                <h1>PROJETO</h1>
+                <div className="Ancestralidade">ANCESTRALIDADE NEGRA</div>
+              </div>
+              <div className="Logotipo">
+                {/* imagem */}
+              </div>
+            </div>
+
+            <div className="Merchan">
+              <p>Relevando Histórias</p>
+              <p>Construindo Futuros</p>
+            </div>
+          </div>
           <div className="register"></div>
       </div>
       <div className="intro">

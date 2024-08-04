@@ -23,10 +23,10 @@ export default function RootLayout({
           
           <nav className="flex gap-5">
             <Link href="/">
-              Home
+              {/* Home */}
             </Link><br/>
             <Link href="/pages/newswire">
-              noticias
+              {/* noticias */}
             </Link>
           </nav>
           {/* header ta aqui pq se repete pra toda pagina as coisas que ta aqui em layout */}

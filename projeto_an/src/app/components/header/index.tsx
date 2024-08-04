@@ -1,6 +1,8 @@
 const Header = ()=>{
     return(
-        <div>cabeça</div>
+        <>
+        {/* <div>cabeça</div> */}
+        </>
     )
 }
 export default Header
