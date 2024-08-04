@@ -1,4 +1,5 @@
 import Header from "./components/header"
+import Slider from "./components/slider";
 
 
 export default function Home() {
@@ -26,7 +27,7 @@ export default function Home() {
       </div>
       <div className="intro">
         <div className="strap">
-          <div className="arrow"></div>
+          <div className="arrowQuestion"></div>
           <div className="question"></div>
         </div>
         <div className="text"></div>
@@ -38,6 +39,8 @@ export default function Home() {
         <div className="card">
           <div className="info"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ut voluptatum similique temporibus ratione incidunt, mollitia iusto odit, veritatis illum harum necessitatibus libero nisi odio soluta. Consequatur nobis minima perferendis?</div>
         </div>
+
+        <Slider></Slider>
       </div>
       <div className="gallery">
         <div className="title">batata de pao</div>
