@@ -32,11 +32,21 @@ export default function Home() {
         <div className="text"></div>
 
       </div>
-      <div>
-          slide
+      <div className="slider">
+        <div className="title">pao de bata</div>
+        
+        <div className="card">
+          <div className="info"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ut voluptatum similique temporibus ratione incidunt, mollitia iusto odit, veritatis illum harum necessitatibus libero nisi odio soluta. Consequatur nobis minima perferendis?</div>
+        </div>
       </div>
-      <div>
-          galeria
+      <div className="gallery">
+        <div className="title">batata de pao</div>
+        <div className="pictures">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </div>
       <div>
           range
